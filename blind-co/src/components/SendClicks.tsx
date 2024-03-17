@@ -34,12 +34,14 @@ function SendClicks(){
     return(
         <>
             <div>
+            {/*
             <h1>Posições clicadas</h1>
             <ul>
                 {clickPositions.map((pos, index) => (
                 <li key={index}>X: {pos.x}, Y: {pos.y}</li>
                 ))}
             </ul>
+            */}
             <button onClick={sendClickPositions}>Send Clicks</button>
             </div>
         </>
