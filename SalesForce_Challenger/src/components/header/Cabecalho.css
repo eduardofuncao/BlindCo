@@ -1,0 +1,132 @@
+.clear-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.salesforce-text {
+    font-family: sans-serif;
+    color: #0070d2; /* Azul escuro */
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.search-login-section {
+    display: flex;
+    align-items: center;
+}
+
+.search-button img {
+    width: 20px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+}
+
+.login-button {
+    background-color: #0070d2; /* Azul escuro */
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 20px; /* Aumenta a margem à esquerda do botão de login */
+    border-radius: 30px;
+    display: flex; /* Adiciona display flex para alinhar o texto e a imagem */
+    align-items: center; /* Alinha verticalmente o texto e a imagem */
+    justify-content: center; /* Centraliza o texto e a imagem horizontalmente */
+}
+
+.login-button:hover {
+    background-color: #005fb2; /* Um tom de azul escuro mais escuro para hover */
+}
+
+.search-input {
+    margin-left: 5px; /* Ajuste o espaçamento conforme necessário */
+    padding: 5px;
+    border: 1px solid #cccccc;
+    width: 7vw; /* Define a largura do campo de entrada */
+}
+
+.search-input:focus {
+    border-color: #0070d2; /* Muda a cor da borda quando o campo de entrada está focado */
+    outline: none; /* Remove o contorno padrão do navegador */
+}
+
+.search-button {
+    border: 0px;
+    background-color: white;
+    border-radius: 20px;
+    width: 30px;
+    height: 40px;
+}
+
+.search-button:hover {
+    background-color: #d7f4ff; 
+    border: 0px; 
+    cursor: pointer; 
+    width: 30px;
+}
+
+.sales-icon{
+    width: 80px;
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.login-button {
+    background-color: #50fc00; /* Azul escuro */
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    margin-left: 50px; /* Aumenta a margem à esquerda do botão de login */
+    display: flex; /* Adiciona display flex para alinhar o texto e a imagem */
+    align-items: center; /* Alinha verticalmente o texto e a imagem */
+    justify-content: center; /* Centraliza o texto e a imagem horizontalmente */
+}
+
+.login-icon {
+    margin-left: 5px; /* Ajuste o espaçamento conforme necessário */
+    width: 20px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+}
+
+.login-container:hover .login-button {
+    background-color: #8dff98; /* Um tom de azul escuro mais escuro para hover */
+}
+
+.header-links {
+    font-family: sans-serif;
+    display: flex;
+    gap: 2vw; /* Espaçamento entre os links */
+    margin-right: 35vw;
+    color: #002d54;
+}
+
+/* Ajustes para responsividade */
+@media (max-width: 768px) {
+    .header-links {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+        margin-right: 0;
+    }
+
+    .search-input {
+        width: 100%; /* Faz o campo de pesquisa ocupar toda a largura disponível */
+    }
+
+    .login-icon {
+        width: 25px; /* Ajuste o tamanho conforme necessário */
+    }
+}

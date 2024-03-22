@@ -1,0 +1,50 @@
+.sales-pop-description {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(31, 1, 255, 0.1);
+    width: 50vw;
+  }
+  
+  .sales-pop-description h1{
+    color: #0a1b62;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  .sales-pop-description h2 {
+    color: #0a1b62;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  
+  .sales-pop-description p {
+    text-align: left;
+    font-size: 20px;
+    color: #6c757d;
+    font-family: sans-serif;
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+    margin-bottom: 120px;
+  }
+  
+  .img_main {
+    width: 35vw;
+    height: auto;
+  }
+  
+  .img_main img {
+    width: 100%;
+    height: auto;
+  }
