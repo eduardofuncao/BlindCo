@@ -105,14 +105,6 @@
     background-color: #8dff98; /* Um tom de azul escuro mais escuro para hover */
 }
 
-.header-links {
-    font-family: sans-serif;
-    display: flex;
-    gap: 2vw; /* Espaçamento entre os links */
-    margin-right: 35vw;
-    color: #002d54;
-}
-
 /* Ajustes para responsividade */
 @media (max-width: 768px) {
     .header-links {
@@ -129,4 +121,9 @@
     .login-icon {
         width: 25px; /* Ajuste o tamanho conforme necessário */
     }
+}
+.imgBlind img{
+    width: 80px;
+    margin-top: 18px;
+    margin-right: 17px;
 }
