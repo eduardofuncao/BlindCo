@@ -11,7 +11,7 @@ function App() {
   <>
   <Cabecalho title={''}/>
   <div className='main-content'>
-   <Home/>
+   <Prod360/>
   </div>
   <Rodape/>
     

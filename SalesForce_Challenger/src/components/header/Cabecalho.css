@@ -1,3 +1,6 @@
+/* App.css */
+
+/* Estilo geral para o cabeçalho */
 .clear-header {
     display: flex;
     justify-content: space-between;
@@ -5,83 +8,104 @@
     padding: 10px 20px;
     width: 100%;
     box-sizing: border-box;
+    position: relative;
 }
 
-.salesforce-text {
-    font-family: sans-serif;
-    color: #0070d2; /* Azul escuro */
-}
-
+/* Estilo para o conteúdo do cabeçalho */
 .header-content {
     display: flex;
     align-items: center;
+    width: 100%;
+    justify-content: flex-end; /* Alinha os elementos à direita */
 }
 
-.search-login-section {
-    display: flex;
-    align-items: center;
+/* Estilo para o botão do menu */
+.menu-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-right: 10px; /* Ajuste conforme necessário */
 }
 
-.search-button img {
+/* Estilo para o ícone do menu */
+.menu-icon {
+    width: 40px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+}
+
+.menu-button:hover{
+    background-color: #d7f4ff; 
+    border: 0px; 
+    cursor: pointer; 
+    width: 40px;
+    border-radius: 20px;
+}
+
+/* Estilo para a caixa lateral */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px; /* Largura da caixa lateral */
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9); /* Cor branca translúcida */
+    color: #000; /* Cor da fonte preta */
+    padding: 20px;
+    transform: translateX(-100%); /* Esconde a caixa lateral inicialmente */
+    transition: transform 0.3s ease-in-out; /* Animação de abertura/fechamento */
+}
+
+.sidebar-item{
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 20px;
+}
+
+/* Estilo para mostrar a caixa lateral */
+.sidebar.show {
+    transform: translateX(0); /* Mostra a caixa lateral */
+}
+
+/* Estilo para os itens da caixa lateral */
+.sidebar-item {
+    margin-bottom: 20px; /* Espaçamento entre os itens */
+}
+
+/* Estilo para o botão de voltar na caixa lateral */
+.close-sidebar-button {
+    background-color: rgba(255, 255, 255, 0.9); 
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    margin-bottom: 30px; /* Espaçamento entre o botão de voltar e os itens */
+    cursor: pointer;
+}
+
+/* Estilo para o hover do botão de voltar */
+
+
+.close-sidebar-button img{
+    margin-top: 25px;
+    width: 1.5vw;
+    
+}
+
+/* Estilo para o ícone SalesForce */
+.sales-icon {
+    width: 80px;
+}
+
+/* Estilo para o ícone de login */
+.login-icon {
+    margin-left: 5px; /* Ajuste o espaçamento conforme necessário */
     width: 20px; /* Ajuste o tamanho conforme necessário */
     height: auto;
 }
 
-.login-button {
-    background-color: #0070d2; /* Azul escuro */
-    color: rgb(255, 255, 255);
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-left: 20px; /* Aumenta a margem à esquerda do botão de login */
-    border-radius: 30px;
-    display: flex; /* Adiciona display flex para alinhar o texto e a imagem */
-    align-items: center; /* Alinha verticalmente o texto e a imagem */
-    justify-content: center; /* Centraliza o texto e a imagem horizontalmente */
-}
-
-.login-button:hover {
-    background-color: #005fb2; /* Um tom de azul escuro mais escuro para hover */
-}
-
-.search-input {
-    margin-left: 5px; /* Ajuste o espaçamento conforme necessário */
-    padding: 5px;
-    border: 1px solid #cccccc;
-    width: 7vw; /* Define a largura do campo de entrada */
-}
-
-.search-input:focus {
-    border-color: #0070d2; /* Muda a cor da borda quando o campo de entrada está focado */
-    outline: none; /* Remove o contorno padrão do navegador */
-}
-
-.search-button {
-    border: 0px;
-    background-color: white;
-    border-radius: 20px;
-    width: 30px;
-    height: 40px;
-}
-
-.search-button:hover {
-    background-color: #d7f4ff; 
-    border: 0px; 
-    cursor: pointer; 
-    width: 30px;
-}
-
-.sales-icon{
-    width: 80px;
-}
-
-.login-container {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-}
-
+/* Estilo para o botão de login */
 .login-button {
     background-color: #50fc00; /* Azul escuro */
     color: rgb(0, 0, 0);
@@ -89,20 +113,51 @@
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 30px;
-    margin-left: 50px; /* Aumenta a margem à esquerda do botão de login */
     display: flex; /* Adiciona display flex para alinhar o texto e a imagem */
     align-items: center; /* Alinha verticalmente o texto e a imagem */
     justify-content: center; /* Centraliza o texto e a imagem horizontalmente */
 }
 
-.login-icon {
-    margin-left: 5px; /* Ajuste o espaçamento conforme necessário */
-    width: 20px; /* Ajuste o tamanho conforme necessário */
-    height: auto;
+/* Estilo para o hover do botão de login */
+.login-button:hover {
+    background-color: #8dff98; /* Um tom de azul escuro mais escuro para hover */
 }
 
-.login-container:hover .login-button {
-    background-color: #8dff98; /* Um tom de azul escuro mais escuro para hover */
+/* Estilo para o campo de pesquisa */
+.search-input {
+    margin-right: 20px; /* Ajuste o espaçamento conforme necessário */
+    padding: 5px;
+    border: 1px solid #cccccc;
+    width: 7vw; /* Define a largura do campo de entrada */
+    border-radius: 20px;
+}
+
+/* Estilo para o foco no campo de pesquisa */
+.search-input:focus {
+    border-color: #0070d2; /* Muda a cor da borda quando o campo de entrada está focado */
+    outline: none; /* Remove o contorno padrão do navegador */
+}
+
+/* Estilo para o botão de pesquisa */
+.search-button {
+    border: 0px;
+    background-color: white;
+    border-radius: 20px;
+    width: 30px;
+    height: 40px;
+    margin-right: 40px; /* Adiciona margem à direita para separar do ícone de login */
+}
+
+/* Estilo para o hover do botão de pesquisa */
+.search-button:hover {
+    background-color: #d7f4ff; 
+    border: 0px; 
+    cursor: pointer; 
+    width: 30px;
+}
+
+.search-button img{
+    width: 1.5vw;
 }
 
 /* Ajustes para responsividade */
@@ -122,8 +177,16 @@
         width: 25px; /* Ajuste o tamanho conforme necessário */
     }
 }
-.imgBlind img{
+
+/* Estilo para a imagem BlindCo */
+.imgBlind img {
     width: 80px;
     margin-top: 18px;
-    margin-right: 17px;
+    margin-right: 30px;
+}
+
+/* Ajustando o estilo para o botão de pesquisa e o ícone de login */
+.search-login-section {
+    display: flex;
+    align-items: center; /* Alinha os elementos verticalmente */
 }
