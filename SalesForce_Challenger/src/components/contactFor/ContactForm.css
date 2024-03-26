@@ -66,6 +66,7 @@
 }
 h3{
     color: #002d54;
+    font-size: 25px;
 }
 
 .form-container {
@@ -93,15 +94,22 @@ h3{
     }
    }
 
-h1{
+.h1-main{
     font-family: sans-serif;
     color: #002d54;
     padding: 3.5vh;
     margin-top: -2vh;
+    font-size: 32px;
     
 
 }
 p{
     padding-left: 3.5vh;
     font-family: sans-serif;
+}
+h2{
+    font-family: sans-serif;
+    color: #002d54;
+    font-size: 28px;
+
 }

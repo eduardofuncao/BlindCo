@@ -36,7 +36,10 @@ const ContactForm: React.FC = () => {
 
  return (
     <>
-        <h1>Está com duvidas? Estamos sempre prontos para ajudá-lo</h1>
+        <div className='h1-main'>
+            <h1>Formulário para Contato</h1>
+        </div>
+        <h2>Está com duvidas? Estamos sempre prontos para ajudá-lo</h2>
         <p>Pergunte-nos sobre nossos produtos, precificação ou implementação. Nossos especialistas estão aqui para ajudá-lo a traçar um caminho para o sucesso.</p>
         <div className="form-container">
             <form onSubmit={handleSubmit} className="contact-form">
@@ -110,7 +113,6 @@ const ContactForm: React.FC = () => {
                 </div>
                 <button type="submit" className="submit-button">Enviar</button>
             </form>
-            <img src={formImage} alt="Mascotes efetuando um atedimento" className="form-image" />
         </div>
     </>
  );

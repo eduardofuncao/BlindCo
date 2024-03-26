@@ -62,11 +62,13 @@ const ClearHeader: React.FC<ClearHeaderProps> = ({ title }) => {
                     <button className="close-sidebar-button" onClick={() => setShowSidebar(false)}>
                         <img src={fechar} alt='botao fechar'/>
                     </button>
-                    <div className="sidebar-item">Home</div>
-                    <div className="sidebar-item">Sobre</div>
-                    <div className="sidebar-item">Produtos</div>
-                    <div className="sidebar-item">Cadastro Contato</div>
-                    <div className="sidebar-item">Nome</div>
+                    <nav>
+                    <a href='#home'><div className="sidebar-item">Home</div></a>
+                    <a><div className="sidebar-item">Sobre</div></a>
+                    <a href='#produtos360'><div className="sidebar-item">Produtos</div></a>
+                    <a href='#cadContato'><div className="sidebar-item">Cadastro Contato</div></a>
+                    <a><div className="sidebar-item">Nome</div></a>
+                    </nav>
                 </div>
             )}
         </>
