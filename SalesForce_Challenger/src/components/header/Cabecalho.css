@@ -92,6 +92,12 @@
     width: 1.5vw;
     
 }
+.close-sidebar-button:hover img{
+    background-color: #d7f4ff;
+    width: 1.5vw;
+    margin-top: 25px;
+    border-radius: 5px;
+}
 
 /* Estilo para o ícone SalesForce */
 .sales-icon {
