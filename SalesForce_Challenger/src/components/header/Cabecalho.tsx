@@ -6,6 +6,7 @@ import loginIcon from './assets/account_avatar_people_profile_user_icon_123297.s
 import BlindCo from './assets/BlindCo.svg';
 import menuIcon from './assets/cardapio.png';
 import fechar from './assets/botao-fechar.png'
+import { BrowserRouter, Route, Routes, Link, Router } from 'react-router-dom';
 
 interface ClearHeaderProps {
     title: string;
@@ -43,6 +44,7 @@ const ClearHeader: React.FC<ClearHeaderProps> = ({ title }) => {
                     <div className='imgBlind'>
                         <img src={BlindCo} alt='icon-BlindCo'/>
                     </div>
+
                     <div className="search-login-section">
                         <button className="search-button" onClick={() => setShowSearch(!showSearch)}>
                             <img src={searchIcon} alt="Ícone de pesquisa" />
@@ -57,6 +59,7 @@ const ClearHeader: React.FC<ClearHeaderProps> = ({ title }) => {
                     </div>
                 </div>
             </header>
+
             {showSidebar && (
                 <div className={`sidebar ${showSidebar ? 'show' : ''}`} onClick={(e) => e.stopPropagation()}>
                     <button className="close-sidebar-button" onClick={() => setShowSidebar(false)}>
