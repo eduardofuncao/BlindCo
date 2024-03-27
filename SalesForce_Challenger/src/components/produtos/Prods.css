@@ -78,17 +78,17 @@ p{
     font-family: sans-serif;
     color: #002d54;;
 }
-h1{
+h1 {
     font-family: sans-serif;
-    color: #002d54;
+    color: #53a9f5;
     padding: 3.5vh;
     margin-top: -2vh;
     text-align: center;
-    text-align: 40px;
     font-size: 32px;
-    
-
+    text-shadow: 0 4px 8px rgba(1, 45, 71, 0.372); /* Adiciona uma sombra azul claro diretamente nas letras */
 }
+
+
 .p_h1{
     text-decoration: none;
     font-family: sans-serif;
