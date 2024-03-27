@@ -10,24 +10,11 @@ import Members from './components/nomes/Nome.tsx';
 
 function App() {
     return (
-        //codigos ja comentados para a mudança, caso precise a =valiar a pagina de login, no qual o import está comentada na pparte final do codigo.
+        //codigos ja comentados para a mudança, caso precise avaliar a pagina de login ou a de nomes, no qual os imports estão comentados na parte final do codigo.
        <>
          <Cabecalho title={''} />
          
-        <Members/>
-
-         <Rodape />
-       </>
-    );
-   }
-   
-
-export default App;
-
-//import pagina de Login/Cadastro
-    //<LoginPage/>
-    
-    /*<div className='main-content'>
+          <div className='main-content'>
           <section id="home">
              <Home />
            </section>
@@ -38,4 +25,18 @@ export default App;
              <CadContato />
            </section>
          </div>
-        <div className="background-secondary"></div>*/
+        <div className="background-secondary"></div>
+
+         <Rodape />
+       </>
+    );
+   }
+   
+
+export default App;
+
+//import pagina de Login/Cadastro e pagina Nomes
+    //<LoginPage/>
+    //<Members/>
+    
+  
