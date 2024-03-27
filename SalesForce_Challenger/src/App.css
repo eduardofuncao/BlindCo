@@ -37,21 +37,21 @@ body{
     background-image: url(../src/assets/BackgroundAppProds.webp); 
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; /* Ajuste conforme necessário */
-    height: 60vh; /* Ajuste a altura conforme necessário */
-    width: 100%; /* Ajuste a largura conforme necessário */
-    position: relative; /* Isso permite que você posicione o elemento em relação aos outros elementos */
-    top: 800px; /* Ajuste o valor conforme necessário para mover o elemento para baixo */
+    background-position: center; 
+    height: 60vh; 
+    width: 100%; 
+    position: relative; 
+    top: 800px; 
 }
 
 .background-tertiary{
     background-image: url(../src/assets/BackgroundAppCadCont.webp); 
     background-repeat: no-repeat;
     background-size:cover;
-    background-position: center; /* Ajuste conforme necessário */
-    height: 45vh; /* Ajuste a altura conforme necessário */
-    width: 100%; /* Ajuste a largura conforme necessário */
-    position: relative; /* Isso permite que você posicione o elemento em relação aos outros elementos */
-    top: 1715px; /* Ajuste o valor conforme necessário para mover o elemento para baixo */
+    background-position: center; 
+    height: 45vh; 
+    width: 100%;
+    position: relative; 
+    top: 1715px; 
     
 }

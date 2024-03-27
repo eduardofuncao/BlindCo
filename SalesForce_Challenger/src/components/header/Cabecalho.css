@@ -59,16 +59,16 @@
     padding: 20px;
 }
 
-/* Estilo para mostrar a caixa lateral */
+
 .sidebar.show {
-    transform: translateX(0); /* Mostra a caixa lateral */
+    transform: translateX(0); 
 }
 
-/* Estilo para os itens da caixa lateral */
+
 .sidebar-item {
-    margin-bottom: 20px; /* Espaçamento entre os itens */
+    margin-bottom: 20px; 
 }
-/* Estilo para os itens da caixa lateral com efeito de hover sutil */
+
 .sidebar-item:hover {
     background: linear-gradient(to right, rgba(111, 236, 255, 0.355), rgba(160, 235, 246, 0));
     transition: background 0.3s ease-in-out; 
@@ -77,7 +77,6 @@
 }
 
 
-/* Estilo para o botão de voltar na caixa lateral */
 .close-sidebar-button {
     background-color: rgba(255, 255, 255, 0.9); 
     color: rgb(0, 0, 0);
@@ -85,11 +84,11 @@
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 30px;
-    margin-bottom: 30px; /* Espaçamento entre o botão de voltar e os itens */
+    margin-bottom: 30px; 
     cursor: pointer;
 }
 
-/* Estilo para o hover do botão de voltar */
+
 
 
 .close-sidebar-button img{
@@ -104,62 +103,60 @@
     border-radius: 5px;
 }
 
-/* Estilo para o ícone SalesForce */
+
 .sales-icon {
     width: 80px;
 }
 
-/* Estilo para o ícone de login */
+
 .login-icon {
-    margin-left: 5px; /* Ajuste o espaçamento conforme necessário */
-    width: 20px; /* Ajuste o tamanho conforme necessário */
+    margin-left: 5px;
+    width: 20px; 
     height: auto;
 }
 
-/* Estilo para o botão de login */
 .login-button {
-    background-color: #50fc00; /* Azul escuro */
+    background-color: #50fc00; 
     color: rgb(0, 0, 0);
     border: none;
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 30px;
-    display: flex; /* Adiciona display flex para alinhar o texto e a imagem */
-    align-items: center; /* Alinha verticalmente o texto e a imagem */
-    justify-content: center; /* Centraliza o texto e a imagem horizontalmente */
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
 }
 
-/* Estilo para o hover do botão de login */
+
 .login-button:hover {
-    background-color: #8dff98; /* Um tom de azul escuro mais escuro para hover */
+    background-color: #8dff98; 
 }
 
-/* Estilo para o campo de pesquisa */
+
 .search-input {
-    margin-right: 20px; /* Ajuste o espaçamento conforme necessário */
+    margin-right: 20px; 
     padding: 5px;
     border: 1px solid #cccccc;
-    width: 7vw; /* Define a largura do campo de entrada */
+    width: 7vw; 
     border-radius: 20px;
 }
 
-/* Estilo para o foco no campo de pesquisa */
+
 .search-input:focus {
-    border-color: #0070d2; /* Muda a cor da borda quando o campo de entrada está focado */
-    outline: none; /* Remove o contorno padrão do navegador */
+    border-color: #0070d2; 
+    outline: none; 
 }
 
-/* Estilo para o botão de pesquisa */
+
 .search-button {
     border: 0px;
     background-color: white;
     border-radius: 20px;
     width: 30px;
     height: 40px;
-    margin-right: 40px; /* Adiciona margem à direita para separar do ícone de login */
+    margin-right: 40px; 
 }
 
-/* Estilo para o hover do botão de pesquisa */
 .search-button:hover {
     background-color: #d7f4ff; 
     border: 0px; 
@@ -171,7 +168,7 @@
     width: 1.5vw;
 }
 
-/* Ajustes para responsividade */
+
 @media (max-width: 768px) {
     .header-links {
         flex-direction: column;
@@ -181,25 +178,25 @@
     }
 
     .search-input {
-        width: 100%; /* Faz o campo de pesquisa ocupar toda a largura disponível */
+        width: 100%; 
     }
 
     .login-icon {
-        width: 25px; /* Ajuste o tamanho conforme necessário */
+        width: 25px; 
     }
 }
 
-/* Estilo para a imagem BlindCo */
+
 .imgBlind img {
     width: 80px;
     margin-top: 18px;
     margin-right: 30px;
 }
 
-/* Ajustando o estilo para o botão de pesquisa e o ícone de login */
+
 .search-login-section {
     display: flex;
-    align-items: center; /* Alinha os elementos verticalmente */
+    align-items: center; 
 }
 a{
     color: #0070d2;
