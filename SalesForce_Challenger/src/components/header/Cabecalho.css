@@ -1,6 +1,3 @@
-/* App.css */
-
-/* Estilo geral para o cabeçalho */
 .clear-header {
     display: flex;
     justify-content: space-between;
@@ -71,6 +68,14 @@
 .sidebar-item {
     margin-bottom: 20px; /* Espaçamento entre os itens */
 }
+/* Estilo para os itens da caixa lateral com efeito de hover sutil */
+.sidebar-item:hover {
+    background: linear-gradient(to right, rgba(111, 236, 255, 0.355), rgba(160, 235, 246, 0));
+    transition: background 0.3s ease-in-out; 
+    border-radius: 50px;
+
+}
+
 
 /* Estilo para o botão de voltar na caixa lateral */
 .close-sidebar-button {

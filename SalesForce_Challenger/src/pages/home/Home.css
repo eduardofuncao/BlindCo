@@ -4,9 +4,9 @@
     align-items: left;
     gap: 20px;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #c5effe;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(31, 1, 255, 0.1);
+    box-shadow: 0 4px 6px rgba(255, 1, 247, 0.20);
     width: 50vw;
   }
   
@@ -28,7 +28,7 @@
   .sales-pop-description p {
     text-align: left;
     font-size: 18px;
-    color: #6c757d;
+    color: #353535;
     font-family: sans-serif;
   }
   
