@@ -13,19 +13,19 @@ function App() {
        <>
          <Cabecalho title={''} />
          
-         //<div className='main-content'>
-          // <section id="home">
-            // <Home />
-          // </section>
-           //<section id="produtos360">
-             //<Prod360 />
-           //</section>
-           //<section id="cadContato">
-             //<CadContato />
-           //</section>
-         //</div>
-         //<div className="background-secondary"></div>
-    //<div className="background-tertiary"></div> 
+         <div className='main-content'>
+          <section id="home">
+             <Home />
+           </section>
+           <section id="produtos360">
+             <Prod360 />
+           </section>
+           <section id="cadContato">
+             <CadContato />
+           </section>
+         </div>
+         <div className="background-secondary"></div>
+        <div className="background-tertiary"></div> 
 
          <Rodape />
        </>
