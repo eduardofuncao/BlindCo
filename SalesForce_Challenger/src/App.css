@@ -20,38 +20,39 @@ body{
   
    @media (max-width: 768px) {
     .main-content {
-       padding: 20px; 
-       gap: 10px; 
+       padding: 200px; 
+       gap: 100px; 
     }
    }
    
    
    @media (max-width: 480px) {
     .main-content {
-       padding: 10px; 
+       padding: 100px; 
        gap: 5px; 
     }
    }
    
-   .background-secondary {
-    background-image: url(../src/assets/BackgroundAppProds.webp); 
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; 
-    height: 60vh; 
-    width: 100%; 
-    position: relative; 
-    top: 800px; 
+   
+.background-secondary {
+ background-image: url(../src/assets/BackgroundAppProds.webp); 
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center; 
+ height: 50vh; 
+ width: 110%; 
+ position:relative; 
+ top: 800px; 
 }
 
 .background-tertiary{
-    background-image: url(../src/assets/BackgroundAppCadCont.webp); 
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center; 
-    height: 45vh; 
-    width: 100%;
-    position: relative; 
-    top: 1715px; 
-    
+ background-image: url(../src/assets/BackgroundAppCadCont.webp); 
+ background-repeat: no-repeat;
+ background-size:cover;
+ background-position: center; 
+ height: 45vh; 
+ width: 100%;
+ position: relative; 
+ top: 1715px; 
+ 
 }
