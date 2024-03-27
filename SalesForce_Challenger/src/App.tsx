@@ -9,19 +9,11 @@ import LoginPage from './components/login/loginPage.tsx';
 
 function App() {
     return (
+        //codigos ja comentados para a mudança, caso precise a =valiar a pagina de login, no qual o import está comentada na pparte final do codigo.
        <>
          <Cabecalho title={''} />
-         <LoginPage/>
          
-         <Rodape />
-       </>
-    );
-   }
-   
-
-export default App;
-
-//<div className='main-content'>
+         //<div className='main-content'>
           // <section id="home">
             // <Home />
           // </section>
@@ -34,3 +26,14 @@ export default App;
          //</div>
          //<div className="background-secondary"></div>
     //<div className="background-tertiary"></div> 
+
+         <Rodape />
+       </>
+    );
+   }
+   
+
+export default App;
+
+//import pagina de Login/Cadastro
+    //<LoginPage/>
