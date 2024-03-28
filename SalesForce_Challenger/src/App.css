@@ -13,7 +13,7 @@ body{
     gap: 20px;
     padding: 30px;
     margin-bottom: 10px;
-    height: 90vh;
+    height: 95vh;
     overflow-y:inherit;
    }
    
@@ -40,19 +40,28 @@ body{
  background-size: cover;
  background-position: center; 
  height: 50vh; 
- width: 110%; 
+ width: 100%; 
  position:relative; 
- top: 800px; 
+ top: 2090px; 
 }
 
 .background-tertiary{
- background-image: url(../src/assets/BackgroundAppCadCont.webp); 
- background-repeat: no-repeat;
- background-size:cover;
- background-position: center; 
- height: 45vh; 
- width: 100%;
- position: relative; 
- top: 1715px; 
- 
-}
+    background-image: url(./assets/BackgroundAppCadt.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%; 
+    height: 30vh; 
+    top: 3090px;
+   }
+   .background-4{
+    background-image: url(./assets/BackgrounSobre.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%; 
+    height: 30vh; 
+    bottom: 872px;
+   }

@@ -67,7 +67,7 @@ const ClearHeader: React.FC<ClearHeaderProps> = ({ title }) => {
                     </button>
                     <nav>
                     <a href='#home'><div className="sidebar-item">Home</div></a>
-                    <a><div className="sidebar-item">Sobre</div></a>
+                    <a href='#sobre'><div className="sidebar-item">Sobre</div></a>
                     <a href='#produtos360'><div className="sidebar-item">Produtos</div></a>
                     <a href='#cadContato'><div className="sidebar-item">Cadastro Contato</div></a>
                 
