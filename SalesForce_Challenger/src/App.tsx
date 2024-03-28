@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+//import './App.css';
 import Home from './pages/home/Home.tsx';
 import CadContato from './pages/cad_Contato/cadContato.tsx';
 import Prod360 from './pages/produtos360/Product360.tsx';
@@ -15,7 +15,22 @@ function App() {
        <>
          <Cabecalho title={''} />
          
-          <div className='main-content'>
+         <Members/>
+
+         <Rodape />
+       </>
+    );
+   }
+   
+
+export default App;
+
+//import pagina de Login/Cadastro e pagina Nomes
+    
+    
+    //<LoginPage/>
+    
+   /*<div className='main-content'>
           <section id="home">
              <Home />
            </section>
@@ -31,18 +46,4 @@ function App() {
          </div>
         <div className="background-secondary"></div>
         <div className='background-tertiary'></div>
-        <div className='background-4'></div>
-
-         <Rodape />
-       </>
-    );
-   }
-   
-
-export default App;
-
-//import pagina de Login/Cadastro e pagina Nomes
-    //<LoginPage/>
-    //<Members/>
-    
-  
+        <div className='background-4'></div>*/

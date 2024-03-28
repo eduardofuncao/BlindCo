@@ -8,6 +8,7 @@
     margin: 0 auto; /* Centraliza o container horizontalmente */
     box-shadow: 0 4px 8px 0 rgba(0, 82, 125, 0.465); /* Sombra aplicada */
     border-radius: 10px;
+    background-color: white;
 }
 
 .member {
