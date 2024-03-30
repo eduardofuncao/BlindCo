@@ -1,5 +1,5 @@
 import React from 'react';
-//import './App.css';
+import './App.css';
 import Home from './pages/home/Home.tsx';
 import CadContato from './pages/cad_Contato/cadContato.tsx';
 import Prod360 from './pages/produtos360/Product360.tsx';
@@ -8,6 +8,7 @@ import Rodape from './components/footer/Rodape.tsx';
 import LoginPage from './components/login/loginPage.tsx';
 import Members from './components/nomes/Nome.tsx';
 import Sobre from './components/sobre/Sobre.tsx';
+import CookiePopup from './components/cookies/CookiePopup.jsx'
 
 function App() {
     return (
@@ -15,22 +16,7 @@ function App() {
        <>
          <Cabecalho title={''} />
          
-         <Members/>
-
-         <Rodape />
-       </>
-    );
-   }
-   
-
-export default App;
-
-//import pagina de Login/Cadastro e pagina Nomes
-    
-    
-    //<LoginPage/>
-    
-   /*<div className='main-content'>
+           <div className='main-content'>
           <section id="home">
              <Home />
            </section>
@@ -46,4 +32,21 @@ export default App;
          </div>
         <div className="background-secondary"></div>
         <div className='background-tertiary'></div>
-        <div className='background-4'></div>*/
+        <div className='background-4'></div>
+        <CookiePopup/>
+
+         <Rodape />
+       </>
+    );
+   }
+   
+
+export default App;
+
+//import pagina de Login/Cadastro e pagina Nomes
+    
+    
+    //<LoginPage/>
+    //<Members/>
+
+ 
