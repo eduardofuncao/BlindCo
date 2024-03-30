@@ -9,7 +9,7 @@ import imgProd3 from '../../assets/ServiceDay.svg'
 const ProdLink = () => {
     return (
         <>
-        <h1>Produtos 360</h1>
+        <h1>Customer 360</h1>
         <section id='produtos'>
         <h2>Não sabe qual o melhor produto<br/> para a sua empresa?</h2>
         <h3>Descubra os nossos melhores produtos!</h3>

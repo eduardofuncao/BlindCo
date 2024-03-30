@@ -33,9 +33,12 @@ function App() {
         <div className="background-secondary"></div>
         <div className='background-tertiary'></div>
         <div className='background-4'></div>
+        
         <CookiePopup/>
 
          <Rodape />
+     
+
        </>
     );
    }
@@ -43,10 +46,10 @@ function App() {
 
 export default App;
 
-//import pagina de Login/Cadastro e pagina Nomes
-    
-    
-    //<LoginPage/>
-    //<Members/>
 
+    
+    
+//<LoginPage/>
+          
+//<Members/>
  

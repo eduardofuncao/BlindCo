@@ -42,7 +42,7 @@ const ClearHeader: React.FC<ClearHeaderProps> = ({ title }) => {
                 
                 <div className="header-content">
                     <div className='imgBlind'>
-                        <img src={BlindCo} alt='icon-BlindCo'/>
+                            <img src={BlindCo} alt='icon-BlindCo'/>
                     </div>
 
                     <div className="search-login-section">

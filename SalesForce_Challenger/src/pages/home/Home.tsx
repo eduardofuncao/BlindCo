@@ -8,12 +8,11 @@ function Home() {
   
   <div className='main-content'>
     <div className="sales-pop-description">
-        <h1>SalesPop</h1>
-          <p>Uma aplicação de acessibilidade para o portal da SalesForce</p>
+        <h1>SALESFORCE x BLINDCO</h1>
         <h2>Descrição da proposta</h2>
           <p>
-          De alguns anos para cá, quando entramos em um site a primeira coisa vemos é uma solicitação para aceitar ou não os cookies.<br/> 
-          Isso acaba sendo inconveniente, quando tudo que você quer fazer, é seguir para o conteúdo principal do site. Por vezes aceitamos sem pensar só para que tudo seja feito mais rapido. Embora irritante, esse fluxo veio para ficar, é necessário e está em conformidade com a LGPD. Pensando em acessibilidade, nós propomos uma forma de tirar proveito dessa "obrigação". Junto com o pop up de aceite dos cookies do site, vamos incluir um rápido questionário opcional para pessoas com deficiência. Com isso, além de gerarmos uma base de dados sobre acessibilidade mais sólida, também vamos poder customizar o site com base nessas escolhas.
+          O projeto visa apresentar um site Responsivo e com Acessibilidade que busca atrair novos clientes. Um dos públicos que irão conseguir acessar o site com uma experiência mais fluída é o público Daltônico. Através de um botão na entrada do site, o usuário Daltônico, irá fazer o input a respeito de sua acessibilidade e irá escolher dentre os tipos existentes, qual o grau se encaixa diante sua necessidade. Tendo isso em vista, o site irá se adaptar para a sua experiência de navegação.
+Outro ponto que o site irá entregar, refere-se a um design mais simples que esteja em conformidade com a identidade visual da marca, mas que consiga reter a atenção do usuário, utilizando palavras chaves e de simples entendimento. 
           </p>
       </div>
   </div>

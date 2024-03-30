@@ -104,11 +104,9 @@ const ContactForm: React.FC = () => {
                         required
                     >
                         <option value="">Selecione o tamanho da empresa</option>
-                        <option value="1-50">1-50 funcionários</option>
-                        <option value="51-300">51-300 funcionários</option>
-                        <option value="301-1000">301-1000 funcionários</option>
-                        <option value="1001-2000">1001-2000 funcionários</option>
-                        <option value="2001+">2001 ou + funcionários</option>
+                        <option value="10-49">10 - 49 funcionários</option>
+                        <option value="50-99">50 - 99 funcionários</option>
+                        <option value="100+">+100 funcionários</option>
                     </select>
                 </div>
                 <button type="submit" className="submit-button">Enviar</button>
