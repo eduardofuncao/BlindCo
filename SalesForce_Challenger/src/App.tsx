@@ -9,6 +9,7 @@ import LoginPage from './components/login/loginPage.tsx';
 import Members from './components/nomes/Nome.tsx';
 import Sobre from './components/sobre/Sobre.tsx';
 import CookiePopup from './components/cookies/CookiePopup.jsx'
+import SendClicks from './components/sendClicks/SendClicks.tsx';
 
 function App() {
     return (
@@ -37,8 +38,6 @@ function App() {
         <CookiePopup/>
 
          <Rodape />
-     
-
        </>
     );
    }
