@@ -16,7 +16,7 @@ function SendClicks(){
         const data = await response.json();
         console.log(data);
     } catch (error) {
-        console.error('Error sending data:', error);
+        console.error('Erro ao enviar dados: ', error);
     }
     };
 
