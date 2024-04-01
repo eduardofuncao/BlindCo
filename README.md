@@ -6,6 +6,8 @@ Artur Lopes Fiorindo 553481
 Eduardo Felipe Nunes Função 553362
 Jhoe Yoshio Kochi Hashimoto 553831
 
+
+Link para o repositório no Github: https://github.com/eduardofuncao/BlindCo
 Link do vídeo mostrando o site: https://youtu.be/8BosEZYNzeM
 
 
