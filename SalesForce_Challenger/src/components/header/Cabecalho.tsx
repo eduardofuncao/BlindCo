@@ -6,7 +6,13 @@ import loginIcon from './assets/account_avatar_people_profile_user_icon_123297.s
 import BlindCo from './assets/BlindCo.svg';
 import menuIcon from './assets/cardapio.png';
 import fechar from './assets/botao-fechar.png'
-import { BrowserRouter, Route, Routes, Link, Router } from 'react-router-dom';
+import { //importando React-route-dom, para a navegacao do site
+    BrowserRouter as Router,
+    Routes,
+    Route, 
+    Link 
+   } from 'react-router-dom';
+import LoginPage from '../login/loginPage';
 
 interface ClearHeaderProps {
     title: string;
@@ -34,6 +40,7 @@ const ClearHeader: React.FC<ClearHeaderProps> = ({ title }) => {
 
     return (
         <>
+        <Router>
             <header className="clear-header">
                 <button className="menu-button" onClick={() => setShowSidebar(!showSidebar)}>
                     <img src={menuIcon} alt="Ícone de Menu" className="menu-icon" />
@@ -52,13 +59,20 @@ const ClearHeader: React.FC<ClearHeaderProps> = ({ title }) => {
                         {showSearch && <input type="text" placeholder="Pesquisar..." className="search-input" />}
                         <div className="login-container">
                             <button className="login-button">
-                                Login
+                            <p><Link to='/login' >Login</Link></p>
                                 <img src={loginIcon} alt="Ícone de login" className="login-icon" />
                             </button>
                         </div>
                     </div>
                 </div>
             </header>
+            
+            
+     
+
+        <Routes>
+            <Route path="/login" element={<LoginPage/>} /> {/* Rota para a página inicial */}
+          </Routes>
 
             {showSidebar && (
                 <div className={`sidebar ${showSidebar ? 'show' : ''}`} onClick={(e) => e.stopPropagation()}>
@@ -74,6 +88,7 @@ const ClearHeader: React.FC<ClearHeaderProps> = ({ title }) => {
                     </nav>
                 </div>
             )}
+        </Router>
         </>
     );
 };

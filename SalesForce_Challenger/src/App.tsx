@@ -11,15 +11,14 @@ import Sobre from './components/sobre/Sobre.tsx';
 import CookiePopup from './components/cookies/CookiePopup.jsx'
 import SendClicks from './components/sendClicks/SendClicks.tsx';
 
+
 function App() {
     return (
-        /*codigos ja comentados para a mudança, caso precise avaliar a pagina de login ou a de nomes
-        no qual os imports estão comentados na parte final do codigo. Lembre-se de comentar o codigo CSS para não ocorrer nenhum
-        tipo de bug quando se trata da estrutura das páginas*/
-       <>
-         <Cabecalho title={''} />
-         
-           <div className='main-content'>
+        <>
+        
+          <Cabecalho title={''} />
+          
+            <div className='main-content'>
           <section id="home">
              <Home />
            </section>
@@ -36,21 +35,13 @@ function App() {
         <div className="background-secondary"></div>
         <div className='background-tertiary'></div>
         <div className='background-4'></div>
-        
+
         <CookiePopup/>
 
          <Rodape />
+         
        </>
     );
    }
-   
 
 export default App;
-
-
-    
-    
-//<LoginPage/>
-          
-//<Members/>
- 

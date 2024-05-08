@@ -20,16 +20,16 @@ body{
   
    @media (max-width: 768px) {
     .main-content {
-       padding: 200px; 
-       gap: 100px; 
+       padding: 2000px; 
+       gap: 1000px; 
     }
    }
    
    
    @media (max-width: 480px) {
     .main-content {
-       padding: 100px; 
-       gap: 5px; 
+       padding: 400px; 
+       gap: 50px; 
     }
    }
    

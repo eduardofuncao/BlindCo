@@ -3,6 +3,8 @@ Artur Lopes Fiorindo 553481
 Eduardo Felipe Nunes Função 553362
 Jhoe Yoshio Kochi Hashimoto 553831
 
+Link do vídeo mostrando o site: https://youtu.be/8BosEZYNzeM
+
 
 Descrição:
 
