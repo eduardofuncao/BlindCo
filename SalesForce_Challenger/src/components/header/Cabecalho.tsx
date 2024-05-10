@@ -3,7 +3,7 @@ import './Cabecalho.css';
 import searchIcon from './assets/search-icon.svg';
 import salesIcon from './assets/salesforce-256.png';
 import loginIcon from './assets/account_avatar_people_profile_user_icon_123297.svg';
-import BlindCo from './assets/BlindCo.svg';
+
 import menuIcon from './assets/cardapio.png';
 import fechar from './assets/botao-fechar.png'
 import { //importando React-route-dom, para a navegacao do site
@@ -13,6 +13,7 @@ import { //importando React-route-dom, para a navegacao do site
     Link 
    } from 'react-router-dom';
 import LoginPage from '../login/loginPage';
+import ColorSwitcher from '../switcher/ColorSwitcher';
 
 interface ClearHeaderProps {
     title: string;
@@ -49,7 +50,7 @@ const ClearHeader: React.FC<ClearHeaderProps> = ({ title }) => {
                 
                 <div className="header-content">
                     <div className='imgBlind'>
-                            <img src={BlindCo} alt='icon-BlindCo'/>
+                        <ColorSwitcher />
                     </div>
 
                     <div className="search-login-section">
@@ -71,8 +72,8 @@ const ClearHeader: React.FC<ClearHeaderProps> = ({ title }) => {
      
 
         <Routes>
-            <Route path="/login" element={<LoginPage/>} /> {/* Rota para a página inicial */}
-          </Routes>
+            <Route path="/login" element={<LoginPage/>} /> {/* Rota para a página de login */}
+        </Routes>
 
             {showSidebar && (
                 <div className={`sidebar ${showSidebar ? 'show' : ''}`} onClick={(e) => e.stopPropagation()}>

@@ -12,11 +12,14 @@ import CookiePopup from './components/cookies/CookiePopup.jsx'
 import SendClicks from './components/sendClicks/SendClicks.tsx';
 
 
+
+
 function App() {
     return (
         <>
         
           <Cabecalho title={''} />
+          
           
             <div className='main-content'>
           <section id="home">
@@ -28,17 +31,23 @@ function App() {
            <section id="produtos360">
              <Prod360 />
            </section>
-           <section id="cadContato">
-             <CadContato />
+           <section className="cadContato">
+             <CadContato /> 
+             <Rodape /> 
            </section>
+          
          </div>
         <div className="background-secondary"></div>
         <div className='background-tertiary'></div>
         <div className='background-4'></div>
 
-        <CookiePopup/>
+        <CookiePopup/> 
+        
 
-         <Rodape />
+        
+        
+
+       
          
        </>
     );
