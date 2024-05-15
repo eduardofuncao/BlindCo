@@ -39,10 +39,9 @@ const ClearHeader: React.FC<ClearHeaderProps> = ({ title }) => {
                 
                 <div className='link-list'>
                     <ul>
-                        <li><Link to='/login' className="nav-link"><b>Login</b></Link></li>
+                        <li><Link to='/produtos' className="nav-link"><b>Produtos</b></Link></li>
                         <li><Link to='/sobre' className="nav-link"><b>Sobre</b></Link></li>
 
-                        <li><Link to='/produtos' className="nav-link"><b>Produtos</b></Link></li>
                     </ul>
                 </div>
                 
@@ -59,7 +58,7 @@ const ClearHeader: React.FC<ClearHeaderProps> = ({ title }) => {
                         {showSearch && <input type="text" placeholder="Pesquisar..." className="search-input" />}
                         <div className="login-container">
                             <button className="login-button">
-                            <a>Login</a>
+                            <Link to="/login">Login</Link>
                                 <Image src={loginIcon} alt="Ícone de login" className="login-icon" />
                             </button>
                         </div>
