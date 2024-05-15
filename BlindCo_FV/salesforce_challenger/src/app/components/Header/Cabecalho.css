@@ -158,6 +158,7 @@ a{
    display: inline-block;
    margin-right: 20px;
    padding-right: 25px;
+   font-size: 15px;
  }
  
  .link-list li:last-child {
@@ -176,4 +177,48 @@ a{
    transition: transform 0.5s ease-in-out; 
  }
 
+
+/*/////////////responsividade/////////////// */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .header-content {
+         justify-content: space-between; /* Adjust alignment for medium-sized screens */
+     }
+    .search-input {
+         width: 60%; /* Adjust input width for better usability */
+     }
+ }
+ 
+ @media (min-width: 1025px) {
+    .header-content {
+         justify-content: flex-end; /* Align items to the right on larger screens */
+     }
+    .search-input {
+         width: 45%; /* Further reduce input width on extra-large screens */
+     }
+ }
+ 
+ /* Ensure images and icons scale properly */
+ img,.menu-icon {
+     max-width: 80%;
+     height: auto;
+ }
+ 
+ /* Typography adjustments for readability */
+ body {
+     font-size: 16px; /* Base font size */
+ }
+ 
+ @media (min-width: 769px) {
+     body {
+         font-size: 18px; /* Increase base font size for larger screens */
+     }
+ }
+ 
+ @media (min-width: 1025px) {
+     body {
+         font-size: 20px; /* Even larger font size for extra-large screens */
+     }
+ }
+ 
  

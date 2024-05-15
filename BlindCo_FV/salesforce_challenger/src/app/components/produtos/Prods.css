@@ -81,12 +81,11 @@ p{
 }
 .h1-prod {
     font-family: sans-serif;
-    color: #53a9f5;
+    color: #003670 ;
     padding: 3.5vh;
     margin-top: 2vh;
     text-align: center;
-    font-size: 32px;
-    text-shadow: 0 4px 8px rgba(1, 45, 71, 0.372); /* Adiciona uma sombra azul claro diretamente nas letras */
+    font-size: 40px;
     padding-bottom: 20px;
 }
 
