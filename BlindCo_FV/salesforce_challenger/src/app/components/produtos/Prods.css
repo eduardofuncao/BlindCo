@@ -13,10 +13,11 @@ body {
     padding: 50px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
     border-radius: 10px; /* Bordas arredondadas */
-    background-color: rgb(226, 244, 255);
+    background-color: rgb(198, 233, 255);
     margin: 9vh auto; /* Centraliza o container principal horizontalmente */
     width: 60vw; /* Largura padrão */
     height: 20vh;
+    margin-bottom: 25vh;
 }
 
 /* Ajustes para dispositivos menores */
