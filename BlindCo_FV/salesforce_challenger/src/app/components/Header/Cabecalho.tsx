@@ -17,6 +17,7 @@ import { //importando React-route-dom, para a navegacao do site
    } from 'react-router-dom';
 import Home from '@/app/pages/home/Home';
 import Prod360 from '@/app/pages/produtos360/Product360';
+import Sobre from '../sobre/Sobre';
 
 interface ClearHeaderProps {
     title: string;
@@ -39,6 +40,8 @@ const ClearHeader: React.FC<ClearHeaderProps> = ({ title }) => {
                 <div className='link-list'>
                     <ul>
                         <li><Link to='/login' className="nav-link"><b>Login</b></Link></li>
+                        <li><Link to='/sobre' className="nav-link"><b>Sobre</b></Link></li>
+
                         <li><Link to='/produtos' className="nav-link"><b>Produtos</b></Link></li>
                     </ul>
                 </div>
@@ -70,6 +73,7 @@ const ClearHeader: React.FC<ClearHeaderProps> = ({ title }) => {
         <div className='main-content'>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/sobre" element={<Sobre />} />
             <Route path="/produtos" element={<Prod360 />} />
             <Route path="/login" element={<LoginPage />} /> {/* Rota para a página de login */}
           </Routes>
