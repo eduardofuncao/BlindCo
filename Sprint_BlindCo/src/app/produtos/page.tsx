@@ -10,7 +10,7 @@ import Image from 'next/image';
 
 const ProdLink = () => {
     return (
-        <>
+        <div className='body-prod'>
         <h1 className='h1-prod'><b>Customer 360</b></h1>
         <section id='produtos'>
         <h2>Não sabe qual o melhor produto<br/> para a sua empresa?</h2>
@@ -51,7 +51,7 @@ const ProdLink = () => {
                 </div>
             </div>
         </section>
-        </>
+        </div>
     );
 };
 

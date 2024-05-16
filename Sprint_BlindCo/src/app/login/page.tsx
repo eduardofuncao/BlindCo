@@ -3,6 +3,10 @@ import React, { useState, useEffect } from 'react';
 import { loginUser } from '@/services/apilogin';
 import { User } from '../types/types';
 import './login.css';
+import Image from 'next/image';
+import loginImg from '../assets/salesforce-login.png';
+
+
 
 const LoginPage: React.FC = () => {
   const [username, setUsername] = useState('');
@@ -34,6 +38,7 @@ const LoginPage: React.FC = () => {
 
   return (
     <div className="login-page">
+      <Image src={loginImg} alt='logo salesforce' className='logo-login'/>
       <div className="tabs">
         <button className="active">Login</button>
         {/* Adicionar aqui outros tabs*/}

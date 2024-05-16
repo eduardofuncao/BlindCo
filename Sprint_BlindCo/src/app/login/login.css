@@ -42,9 +42,10 @@
     width: 350px; 
     height: auto; 
     padding: 30px;
-    background-color: #fff;
+    background-color: #f0f0f0;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20vh;
    }
    
    .content input {
@@ -70,5 +71,8 @@
    
    .content button:hover {
     background-color: #005680;
+   }
+   .logo-login{
+    width: 20vw;
    }
    

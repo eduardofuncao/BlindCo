@@ -2,8 +2,8 @@
 import React from 'react';
 import './Home.css';
 import img_mainText from './assets/LandingImage.webp';
-import { Link } from 'react-router-dom';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Home: React.FC = () => {
   return (
@@ -16,10 +16,10 @@ const Home: React.FC = () => {
           Experimente o Salesforce Starter Suite hoje mesmo. Não há nada para instalar. <i>Não</i> é necessário cartão de crédito.
           </p>
           <div className="buttons">
-            <a href="https://www.salesforce.com/br/form/signup/salesforce-starter/" className="buttonHome1">
+            < Link href="/login" className="buttonHome1">
               Inicie teste gratuito
-            </a>
-            <a href="https://www.salesforce.com/br/form/starter/overview-demo/" className="buttonHome2">
+            </Link>
+            <a href="https://www.salesforce.com/br/form/starter/overview-demo/" target='blank' className="buttonHome2">
               Assista à demo
             </a>
           </div>

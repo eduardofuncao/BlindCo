@@ -1,3 +1,10 @@
+.body-acess{
+    background-image: url(../assets/BackgroundAppCadt.webp); 
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position-y: bottom;
+}
+
 .h1-Cookies{
     font-family: sans-serif;
     color: #003670 ;
@@ -33,7 +40,6 @@
     align-items: center;
     gap: 20px;
     padding: 50px;
-    margin-bottom: 25vh;
     max-width: 90%; 
     overflow-x: hidden; 
 }
