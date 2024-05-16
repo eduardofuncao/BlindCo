@@ -1,0 +1,12 @@
+{
+    "posts": [
+      { "id": 1, "title": "Hello World", "content": "This is a blog post." },
+      { "id": 2, "title": "Next.js", "content": "Framework for server-rendered apps." }
+    ],
+   
+    "users": [
+      { "id": 1, "name": "John Doe", "username": "johndoe", "password": "123456" },
+      { "id": 2, "name": "Jane Doe", "username": "janedoe", "password": "abcdef" }
+    ]
+  }
+  
