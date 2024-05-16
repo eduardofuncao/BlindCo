@@ -2,7 +2,7 @@ import axios from 'axios';
 import { User } from '@/app/types/types';
 
 const api = axios.create({
-  baseURL: 'http://localhost:4001',
+  baseURL: 'http://localhost:4002',
 });
 
 

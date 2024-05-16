@@ -1,12 +1,37 @@
 {
-    "posts": [
-      { "id": 1, "title": "Hello World", "content": "This is a blog post." },
-      { "id": 2, "title": "Next.js", "content": "Framework for server-rendered apps." }
-    ],
-   
-    "users": [
-      { "id": 1, "name": "John Doe", "username": "johndoe", "password": "123456" },
-      { "id": 2, "name": "Jane Doe", "username": "janedoe", "password": "abcdef" }
-    ]
-  }
-  
+  "users": [
+    {
+      "id": "b1d2",
+      "username": "ArTz2",
+      "password": "fiap123",
+      "firstName": "Artur",
+      "lastName": "Fiorindo",
+      "email": "rm5533481@fiap.com.br",
+      "phone": "11 99099434",
+      "role": "Gerente",
+      "company": "FIAP"
+    },
+    {
+      "id": "ea13",
+      "username": "ArTz2",
+      "password": "fiap123",
+      "firstName": "Artur",
+      "lastName": "Fiorindo",
+      "email": "rm5533481@fiap.com.br",
+      "phone": "11 99099434",
+      "role": "Gerente",
+      "company": "FIAP"
+    },
+    {
+      "id": "271f",
+      "username": "ArTz157",
+      "password": "fiap2025",
+      "firstName": "Eduardo",
+      "lastName": "Jhoe",
+      "email": "rm481@fiap.com",
+      "phone": "11 99234685",
+      "role": "Estagiario",
+      "company": "Petz"
+    }
+  ]
+}
