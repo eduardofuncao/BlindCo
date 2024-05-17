@@ -36,3 +36,8 @@ Funcionalidade:
 
 Para aprimorar o nosso site conforme a proposta delineada, optamos por adotar exclusivamente REACT + TYPESCRIPT e CSS. Durante esta sprint, dedicamos nossos esforços à migração do conteúdo existente em HTML e CSS para essa nova abordagem, visando não apenas melhorar a performance do site, mas também garantir um código mais organizado e limpo.
 Enfrentamos o desafio adicional de introduzir novas funcionalidades que aprimorassem a experiência do usuário. Isso incluiu a implementação de uma barra de navegação para facilitar a interação, o refinamento dos estilos para uma estética mais atrativa e a componentização do site para uma melhor organização e manutenibilidade do código. Essas melhorias foram concebidas não apenas para elevar a qualidade do site, mas também para oferecer uma experiência de usuário mais coesa e envolvente.
+
+
+
+
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=e6b0aa&height=120&section=footer"/>
