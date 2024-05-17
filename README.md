@@ -1,4 +1,4 @@
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=e47eff&height=120&section=header"/>
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=e6b0aa&height=120&section=header"/>
 
 <h1># BlindCo</h1>
 Compatibilidade e Acessibilidade Visual
