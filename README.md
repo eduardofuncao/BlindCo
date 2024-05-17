@@ -1,4 +1,4 @@
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=e47eff&height=120&section=header"/># BlindCo
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=e47eff&height=120&section=header"># BlindCo</img>
 Compatibilidade e Acessibilidade Visual
 
 Integrantes do grupo
