@@ -1,3 +1,4 @@
+// Home.tsx
 
 import React from 'react';
 import './Home.css';
@@ -6,14 +7,16 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const Home: React.FC = () => {
+
+
   return (
     <div className="landing-page">
       <div className="contentHome">
         <div className="inner-content">
           <h1 className="title"><u>Experimente</u> o Salesforce Starter Suite <b>gratuitamente</b>.</h1>
           <p className="supporting-text">
-          Reúna marketing, vendas e atendimento em um único aplicativo. 
-          Experimente o Salesforce Starter Suite hoje mesmo. Não há nada para instalar. <i>Não</i> é necessário cartão de crédito.
+            Reúna marketing, vendas e atendimento em um único aplicativo. 
+            Experimente o Salesforce Starter Suite hoje mesmo. Não há nada para instalar. <i>Não</i> é necessário cartão de crédito.
           </p>
           <div className="buttons">
             < Link href="/login" className="buttonHome1">

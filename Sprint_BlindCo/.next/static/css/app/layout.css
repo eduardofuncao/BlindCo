@@ -681,6 +681,9 @@ video {
 .w-20 {
   width: 5rem;
 }
+.w-2 {
+  width: 0.5rem;
+}
 .list-inside {
   list-style-position: inside;
 }
@@ -747,6 +750,10 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 .font-bold {
   font-weight: 700;
@@ -1034,6 +1041,17 @@ a{
      body {
          font-size: 20px; /* Even larger font size for extra-large screens */
      }
+ }
+ 
+ .logout-button{
+    margin-left: 1vw;
+    
+ }
+
+ .logout-button:hover{
+    color: rgb(255, 88, 88);
+    transition: 0.5s;
+    
  }
  
  

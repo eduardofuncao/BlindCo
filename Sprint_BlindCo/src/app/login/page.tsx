@@ -8,7 +8,11 @@ import Image from 'next/image';
 import loginImg from '../assets/salesforce-login.png';
 import './login.css';
 
-const LoginPage: React.FC = () => {
+interface LoginPageProps {
+  onLoginSuccess: (username: string) => void;
+}
+
+const LoginPage: React.FC<LoginPageProps> = ({ onLoginSuccess }) => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
@@ -46,7 +50,9 @@ const LoginPage: React.FC = () => {
       const authenticatedUser = await loginUser(username, password, users);
   
       if (authenticatedUser) {
-        // Login bem-sucedido, redirecionar para a página inicial
+        // Armazenar o nome de usuário na localStorage
+        localStorage.setItem('username', authenticatedUser.username);
+        // Redirecionar para a página inicial
         window.location.href = '/';
       } else {
         // Login falhou, exibir mensagem de erro

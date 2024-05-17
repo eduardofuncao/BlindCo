@@ -221,4 +221,15 @@ a{
      }
  }
  
+ .logout-button{
+    margin-left: 1vw;
+    
+ }
+
+ .logout-button:hover{
+    color: rgb(255, 88, 88);
+    transition: 0.5s;
+    
+ }
+ 
  
