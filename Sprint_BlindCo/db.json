@@ -1,37 +1,23 @@
 {
+  "rules": {
+    "/users": {
+      "PATCH": true
+    }
+  },
   "users": [
     {
-      "id": "b1d2",
-      "username": "ArTz2",
-      "password": "fiap123",
-      "firstName": "Artur",
-      "lastName": "Fiorindo",
-      "email": "rm5533481@fiap.com.br",
-      "phone": "11 99099434",
-      "role": "Gerente",
+      "id": "4",
+      "username": "admin",
+      "password": "123",
+      "firstName": "admin",
+      "lastName": "fiapinho",
+      "email": "admin@fiap.com",
+      "phone": "11 999999999",
+      "role": "Chefe",
       "company": "FIAP"
-    },
-    {
-      "id": "ea13",
-      "username": "ArTz2",
-      "password": "fiap123",
-      "firstName": "Artur",
-      "lastName": "Fiorindo",
-      "email": "rm5533481@fiap.com.br",
-      "phone": "11 99099434",
-      "role": "Gerente",
-      "company": "FIAP"
-    },
-    {
-      "id": "271f",
-      "username": "ArTz157",
-      "password": "fiap2025",
-      "firstName": "Eduardo",
-      "lastName": "Jhoe",
-      "email": "rm481@fiap.com",
-      "phone": "11 99234685",
-      "role": "Estagiario",
-      "company": "Petz"
-    }
-  ]
+      }
+  ],
+  "preferences": []
+
+  
 }
