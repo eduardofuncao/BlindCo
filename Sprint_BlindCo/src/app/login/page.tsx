@@ -1,11 +1,11 @@
 "use client";
 import React, { useState, useEffect } from 'react';
-import { loginUser } from '@/services/apilogin'; // Substitua pelo caminho correto
+import { loginUser } from '@/services/apilogin'; // Verifique se o caminho está correto
 import { getUsers } from '@/services/apiusuarios';
-import { saveUser } from '@/services/apiregister'; // Importando as funções de API
-import { User } from '../types/types';
+import { saveUser } from '@/services/apiregister';
+import { User } from '../types/types'; // Verifique se o caminho está correto
 import Image from 'next/image';
-import loginImg from '../assets/salesforce-login.png';
+import loginImg from '../assets/salesforce-login.png'; // Verifique se o caminho está correto
 import './login.css';
 
 interface LoginPageProps {
@@ -17,8 +17,8 @@ const LoginPage: React.FC<LoginPageProps> = ({ onLoginSuccess }) => {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [user, setUser] = useState<User | null>(null);
-  const [isLoginTab, setIsLoginTab] = useState(true); // Estado para controlar a aba ativa
-  const [users, setUsers] = useState<User[]>([]); // Estado para armazenar a lista de usuários
+  const [isLoginTab, setIsLoginTab] = useState(true);
+  const [users, setUsers] = useState<User[]>([]);
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [email, setEmail] = useState('');
@@ -26,10 +26,9 @@ const LoginPage: React.FC<LoginPageProps> = ({ onLoginSuccess }) => {
   const [role, setRole] = useState('');
   const [company, setCompany] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
-  const [userCounter, setUserCounter] = useState(0); // Contador de usuários
+  const [userCounter, setUserCounter] = useState(0);
 
   useEffect(() => {
-    // Carrega a lista de usuários quando o componente é montado
     loadUsers();
   }, []);
 
@@ -37,7 +36,7 @@ const LoginPage: React.FC<LoginPageProps> = ({ onLoginSuccess }) => {
     try {
       const usersData = await getUsers();
       setUsers(usersData);
-      setUserCounter(usersData.length); // Definir o contador de usuários como o tamanho da lista atual
+      setUserCounter(usersData.length);
     } catch (error) {
       console.error('Erro ao carregar usuários:', error);
     }
@@ -45,41 +44,33 @@ const LoginPage: React.FC<LoginPageProps> = ({ onLoginSuccess }) => {
 
   const handleLogin = async (event: React.FormEvent) => {
     event.preventDefault();
-    setError(''); // Resetar mensagem de erro
+    setError('');
   
     try {
       const authenticatedUser = await loginUser(username, password);
   
       if (authenticatedUser) {
-        // Armazenar o nome de usuário na localStorage
         localStorage.setItem('username', authenticatedUser.username);
-        // Redirecionar para a página inicial
         window.location.href = '/';
       } else {
-        // Login falhou, exibir mensagem de erro
         setError('Nome de usuário ou senha incorretos');
       }
     } catch {
-      // Erro ao fazer login
       setError('Erro ao fazer login');
     }
   };
-  
 
   const handleRegister = async (event: React.FormEvent) => {
     event.preventDefault();
-    setError(''); // Resetar mensagem de erro
+    setError('');
     try {
-      // Verifique se as senhas coincidem
       if (password !== confirmPassword) {
         setError('As senhas não coincidem');
         return;
       }
 
-      // Incrementar o contador de usuários e gerar o ID
       const newUserId = userCounter + 1;
 
-      // Chame a API para salvar o novo usuário
       await saveUser({
         id: newUserId.toString(),
         username,
@@ -93,9 +84,6 @@ const LoginPage: React.FC<LoginPageProps> = ({ onLoginSuccess }) => {
       });
 
       window.location.href = '/login';
-
-      // redireciona o usuário para a página de login
-
     } catch (error) {
       setError('Erro ao cadastrar usuário');
     }
