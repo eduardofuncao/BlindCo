@@ -48,7 +48,7 @@ const LoginPage: React.FC<LoginPageProps> = ({ onLoginSuccess }) => {
     setError(''); // Resetar mensagem de erro
   
     try {
-      const authenticatedUser = await loginUser(username, password, users);
+      const authenticatedUser = await loginUser(username, password);
   
       if (authenticatedUser) {
         // Armazenar o nome de usuário na localStorage
