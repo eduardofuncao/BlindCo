@@ -29,13 +29,13 @@
     },
     {
       "id": "3",
-      "username": "TesteFiap",
-      "password": "1234",
-      "firstName": "Artur",
-      "lastName": "Lopes",
-      "email": "fiap@gmail.com",
-      "phone": "11 999999999",
-      "role": "Estagiario",
+      "username": "Art",
+      "password": "123",
+      "firstName": "artur",
+      "lastName": "lopes",
+      "email": "alopes@gmail.com",
+      "phone": "11 999999",
+      "role": "gerente",
       "company": "FIAP"
     }
   ],

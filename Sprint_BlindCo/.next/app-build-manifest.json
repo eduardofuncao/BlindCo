@@ -23,6 +23,29 @@
       "static/chunks/main-app.js",
       "static/css/app/nomes/page.css",
       "static/chunks/app/nomes/page.js"
+    ],
+    "/produtos/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/produtos/page.css",
+      "static/chunks/app/produtos/page.js"
+    ],
+    "/acessibilidade/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/acessibilidade/page.css",
+      "static/chunks/app/acessibilidade/page.js"
+    ],
+    "/sobre/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/sobre/page.css",
+      "static/chunks/app/sobre/page.js"
+    ],
+    "/logout/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/logout/page.js"
     ]
   }
 }
